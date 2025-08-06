@@ -1,9 +1,14 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">TruFurrs</string>
-    <string name="app_name_active">TruFurrs ACTIVE</string>
     <string name="app_name_tag">TruFurrs TAG</string>
-    <string name="tagline_active">Smart Pet Tracking</string>
+    <string name="app_name_active">TruFurrs ACTIVE</string>
+    <string name="app_name_sense">TruFurrs SENSE</string>
+
+    <!-- Brand Taglines -->
     <string name="tagline_tag">Find Your Pet</string>
+    <string name="tagline_active">Smart Pet Tracking</string>
+    <string name="tagline_sense">Complete Pet Wellness</string>
+    <string name="tagline_generic">Pet Safety &amp; Wellness</string>
 
     <!-- Navigation -->
     <string name="nav_home">Home</string>
@@ -12,5 +17,9 @@
     <string name="nav_alerts">Alerts</string>
     <string name="nav_find">Find</string>
     <string name="nav_settings">Settings</string>
+
+    <!-- Brand Messages -->
+    <string name="welcome_message">Welcome to %1$s</string>
+    <string name="brand_promise">Keeping your furry family safe</string>
     <string name="mapbox_access_token" translatable="false" tools:ignore="UnusedResources">pk.eyJ1Ijoic2FoaWxkOTEiLCJhIjoiY21keDI4ZmJzMDdrZTJrcXZpdDh2MXVjYSJ9._GIE1SxpeaAIh8NYhrVj3g</string>
 </resources>

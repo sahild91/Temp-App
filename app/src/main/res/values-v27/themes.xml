@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base TruFurrs Theme -->
+
     <style name="Theme.TruFurrs" parent="Theme.Material3.DayNight">
         <!-- Primary Brand Colors -->
         <item name="colorPrimary">@color/primary_dark_green</item>
@@ -39,30 +39,5 @@
         <item name="textAppearanceBody1">@style/TextAppearance.TruFurrs.Body1</item>
         <item name="textAppearanceBody2">@style/TextAppearance.TruFurrs.Body2</item>
         <item name="textAppearanceCaption">@style/TextAppearance.TruFurrs.Caption</item>
-    </style>
-
-    <!-- Splash Screen Theme -->
-    <style name="Theme.TruFurrs.Splash" parent="Theme.TruFurrs">
-        <item name="android:windowBackground">@color/primary_dark_green</item>
-        <item name="android:statusBarColor">@color/primary_dark_green</item>
-        <item name="android:navigationBarColor">@color/primary_dark_green</item>
-        <item name="android:windowLightStatusBar">false</item>
-        <item name="android:windowLightNavigationBar">false</item>
-    </style>
-
-    <!-- Tier-Specific Themes -->
-    <style name="Theme.TruFurrs.TAG" parent="Theme.TruFurrs">
-        <item name="colorSecondary">@color/tier_tag_accent</item>
-        <item name="colorTertiary">@color/tier_tag_accent</item>
-    </style>
-
-    <style name="Theme.TruFurrs.ACTIVE" parent="Theme.TruFurrs">
-        <item name="colorSecondary">@color/tier_active_accent</item>
-        <item name="colorTertiary">@color/tier_active_accent</item>
-    </style>
-
-    <style name="Theme.TruFurrs.SENSE" parent="Theme.TruFurrs">
-        <item name="colorSecondary">@color/tier_sense_accent</item>
-        <item name="colorTertiary">@color/tier_sense_accent</item>
     </style>
 </resources>

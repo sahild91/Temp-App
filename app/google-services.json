@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "966205666109",
+    "project_id": "trufurrs",
+    "storage_bucket": "trufurrs.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966205666109:android:e881ea8a7e41bb79104b54",
+        "android_client_info": {
+          "package_name": "com.trufurrs.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966205666109-h9pd9s66aco8auib72c764rkd47lpg45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trufurrs.app",
+            "certificate_hash": "b5fd0db75071380ff4cee1a1db742de66600cdfb"
+          }
+        },
+        {
+          "client_id": "966205666109-hvqdf2d28jp7ved3l5v00cnqtgee675r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5uXgLO99XCP3_zz5690zGSzMS8WK6YFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "966205666109-hvqdf2d28jp7ved3l5v00cnqtgee675r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

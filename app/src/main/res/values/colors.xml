@@ -1,27 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Active Tier Colors -->
-    <color name="active_primary">#2196F3</color>
-    <color name="active_secondary">#03DAC5</color>
+    <!-- TruFurrs Brand Colors -->
+    <color name="primary_dark_green">#00291B</color>
+    <color name="primary_charcoal_gray">#333333</color>
+    <color name="secondary_mustard_gold">#D3AF37</color>
+    <color name="accent_gold">#D4AF37</color>
+    <color name="accent_silver">#A8A8A8</color>
 
-    <!-- TAG Tier Colors -->
-    <color name="tag_primary">#4CAF50</color>
-    <color name="tag_secondary">#8BC34A</color>
+    <!-- Dynamic Primary Colors (used throughout app) -->
+    <color name="primary_color">@color/primary_dark_green</color>
+    <color name="secondary_color">@color/secondary_mustard_gold</color>
+    <color name="accent_color">@color/accent_gold</color>
 
-    <!-- Dynamic Primary Color (changes based on tier) -->
-    <color name="primary_color">@color/active_primary</color>
-    <color name="secondary_color">@color/active_secondary</color>
+    <!-- Text Colors -->
+    <color name="text_primary">@color/primary_charcoal_gray</color>
+    <color name="text_secondary">@color/accent_silver</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_on_secondary">@color/primary_charcoal_gray</color>
+
+    <!-- Background Colors -->
+    <color name="background_primary">#FFFFFF</color>
+    <color name="background_secondary">#F8F9FA</color>
+    <color name="surface_color">#FFFFFF</color>
 
     <!-- Common Colors -->
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
-    <color name="gray_light">#F5F5F5</color>
-    <color name="gray_dark">#757575</color>
+    <color name="error_red">#F44336</color>
+    <color name="success_green">#4CAF50</color>
+    <color name="warning_orange">#FF9800</color>
 
-    <!-- Material Design Colors -->
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <!-- Tier-Specific Accent Colors -->
+    <color name="tier_tag_accent">@color/accent_silver</color>
+    <color name="tier_active_accent">@color/secondary_mustard_gold</color>
+    <color name="tier_sense_accent">@color/accent_gold</color>
+
+    <!-- Button Colors -->
+    <color name="button_primary">@color/primary_dark_green</color>
+    <color name="button_secondary">@color/secondary_mustard_gold</color>
+    <color name="button_disabled">@color/accent_silver</color>
 </resources>
