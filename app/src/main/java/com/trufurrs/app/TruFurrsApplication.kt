@@ -13,7 +13,6 @@ class TruFurrsApplication : Application() {
     }
 
     private fun loadTierConfiguration() {
-        // For now, set to ACTIVE - later read from config.properties
         TierConfig.currentTier = AppTier.ACTIVE
     }
 }
