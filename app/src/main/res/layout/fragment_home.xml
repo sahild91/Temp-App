@@ -70,7 +70,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="8dp"
                 android:text="No pets registered yet"
-                android:textColor="@color/gray_dark"
+                android:textColor="@color/primary_charcoal_gray"
                 android:textSize="14sp" />
 
             <com.google.android.material.button.MaterialButton

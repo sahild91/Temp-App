@@ -41,12 +41,12 @@ class LoginActivity : BaseActivity() {
     }
 
     // Apple Sign-In launcher (if implementing Apple Sign-In)
-    private val appleSignInLauncher = registerForActivityResult(
-        ActivityResultContracts.StartActivityForResult()
-    ) { result ->
-        // Handle Apple Sign-In result
-        handleAppleSignInResult(result.resultCode, result.data)
-    }
+//    private val appleSignInLauncher = registerForActivityResult(
+//        ActivityResultContracts.StartActivityForResult()
+//    ) { result ->
+//        // Handle Apple Sign-In result
+//        handleAppleSignInResult(result.resultCode, result.data)
+//    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -169,10 +169,10 @@ class LoginActivity : BaseActivity() {
         authViewModel.signInWithGoogle(account.idToken!!)
     }
 
-    private fun handleAppleSignInResult(resultCode: Int, data: Intent?) {
-        // Handle Apple Sign-In result
-        // Implementation depends on Apple Sign-In SDK
-    }
+//    private fun handleAppleSignInResult(resultCode: Int, data: Intent?) {
+//        // Handle Apple Sign-In result
+//        // Implementation depends on Apple Sign-In SDK
+//    }
 
     private fun handleForgotPassword() {
         val email = binding.etEmail.text.toString().trim()
